@@ -14,7 +14,7 @@ export default function Home() {
       <button className="btn">Contact</button>
       </Link>
       </div>
-      <div className="bg-[black] w-screen fixed lg:block h-[50px] lg:h-8 lg:mt-12 bottom-0"></div>
+      <div className="bg-[black] w-screen fixed lg:block h-[50px] lg:h-18 lg:mt-12 bottom-0"></div>
     </div>
   );
 }
