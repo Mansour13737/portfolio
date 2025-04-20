@@ -14,7 +14,7 @@ export default function Home() {
       <button className="btn">Contact</button>
       </Link>
       </div>
-      <div className="bg-[#030303] w-screen h-[40px] lg:h-8 lg:mt-12 mt-4"></div>
+      <div className="bg-[pink] w-screen h-[40px] lg:h-8 lg:mt-12 mt-4"></div>
     </div>
   );
 }
