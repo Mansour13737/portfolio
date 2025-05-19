@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Contact() {
     return (
-        <div className="h-screen relative flex justify-center items-center container max-w-full bg-[url('/3.JPG')] bg-center bg-cover">
+        <div className="h-screen relative flex justify-center items-center container max-w-full bg-[url('/3.webp')] bg-center bg-cover">
 
             <div className="w-full flex justify-center h-fit mt-40 flex-col mx-auto ">
                 <div className="flex justify-center items-center gap-3">
