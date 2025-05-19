@@ -1,9 +1,16 @@
 import Link from "next/link"
+import Image from "next/image";
 
 export default function Contact() {
     return (
-        <div className="h-screen relative flex justify-center items-center container max-w-full bg-[url('/3.webp')] bg-center bg-cover">
-
+        <div className="h-screen relative flex justify-center items-center container max-w-full  bg-center bg-cover">
+            <Image
+                src={'/3.webp'}
+                alt="Background Image"
+                fill
+                priority
+                className="object-cover object-center w-full h-screen -z-10"
+            />
             <div className="w-full flex justify-center h-fit mt-40 flex-col mx-auto ">
                 <div className="flex justify-center items-center gap-3">
                     <Link href={'https://www.instagram.com/mansour_nosrati_live/profilecard/?igsh=MWR0eXppN2pzYjlxbQ=='}>
