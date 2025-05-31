@@ -8,6 +8,7 @@ export default function About() {
                   src={'/2.webp'}
                   alt="Background Image"
                   fill
+                  loading="lazy"
                   className="object-cover object-center w-full h-screen -z-10"
                   />
             <h2 className="mb-[6vh] lg:text-3xl text-[18px]  text-justify mx-auto font-bold lg:tracking-[5px] border-black/10 border-b-2 rounded-b-md pb-2">  About me</h2>
