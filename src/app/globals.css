@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 .btn {
-  @apply hover:bg-black hover:text-white  tracking-wider will-change-auto px-3 py-2 hover:scale-110 transition-all font-medium duration-180 border-gray-500 border-b-1 leading-5 shadow-[3px] cursor-pointer rounded-[7px]
+  @apply hover:bg-black hover:text-white tracking-wider will-change-auto px-2 py-1.5 sm:px-3 sm:py-2 hover:scale-105 sm:hover:scale-110 transition-all font-medium duration-180 border-gray-500 border-b-1 leading-5 shadow-[2px] sm:shadow-[3px] cursor-pointer rounded-[5px] sm:rounded-[7px] text-sm sm:text-base
 }
+
 .btn-new {
-   @apply hover:bg-black hover:text-white  tracking-wider will-change-auto px-3 py-2 hover:scale-110 transition-all font-medium duration-180 border-gray-500 border-b-1 leading-5 shadow-[3px] cursor-pointer rounded-[7px]
+  @apply hover:bg-black hover:text-white tracking-wider will-change-auto px-2 py-1.5 sm:px-3 sm:py-2 hover:scale-105 sm:hover:scale-110 transition-all font-medium duration-180 border-gray-500 border-b-1 leading-5 shadow-[2px] sm:shadow-[3px] cursor-pointer rounded-[5px] sm:rounded-[7px] text-sm sm:text-base
 }
