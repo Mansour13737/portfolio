@@ -8,7 +8,9 @@ export default function Contact() {
                 src={'/3.webp'}
                 alt="Background Image"
                 fill
-                loading="lazy"
+                priority
+                quality={85}
+                sizes="100vw"
                 className="object-cover object-center w-full h-screen -z-10"
             />
             <div className="w-full flex justify-center h-fit mt-40 flex-col mx-auto ">

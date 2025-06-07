@@ -8,7 +8,9 @@ export default function Home() {
         src={'/1.webp'}
         alt="Background Image"
         fill
-        loading="lazy"
+        priority
+        quality={85}
+        sizes="100vw"
         className="object-cover object-center w-full h-screen -z-10"
       />
       <h2 className="mb-[50%] lg:mb-[15%] tracking-[6px] lg:mt-[2.5%] lg:text-5xl first-letter:text-[40px] text-[25px] lg:first-letter:text-5xl first-letter:font-bold first-letter:text-gray-700 hover:scale-110 cursor-pointer transition-all duration-300 ">Portfolio</h2>
